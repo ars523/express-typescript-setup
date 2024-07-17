@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { MovieServices } from "./movie.service";
-import { z } from "zod";
 import { movieValidationSchema } from "./movie.validation";
 
 const createMovie = async (req: Request, res: Response) => {
